@@ -13,7 +13,8 @@
 
 ## Planning
 
-### The Plan
+### The Criteria and Plan
+[https://docs.google.com/document/d/1x2zcYFR73pVGV2NC_2CteQb3-w5JeybZIv0qkrRLdq0/edit?usp=sharing] (Planning Google Doc)
 <img src="https://user-images.githubusercontent.com/71342195/144874118-67c72556-f5b6-4b3c-b789-f33a8a4ccfe7.png">
 
 ### Description
