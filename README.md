@@ -14,7 +14,8 @@
 ## Planning
 
 ### The Criteria and Plan
-[https://docs.google.com/document/d/1x2zcYFR73pVGV2NC_2CteQb3-w5JeybZIv0qkrRLdq0/edit?usp=sharing] (Planning Google Doc)
+[Criteria Google Doc](https://docs.google.com/document/d/1x2zcYFR73pVGV2NC_2CteQb3-w5JeybZIv0qkrRLdq0/edit?usp=sharing)
+
 <img src="https://user-images.githubusercontent.com/71342195/144874118-67c72556-f5b6-4b3c-b789-f33a8a4ccfe7.png">
 
 ### Description
@@ -33,7 +34,7 @@
 ### Issues While Designing/ Solutions
  I have tried to make the first idea where I move the arm up and down like a bucket but the arm wouldnt be able to have a full range of motion wile keeping the strings out of the way. The other problem I have with this idea is the amount of space it takes up. So I will be trying the other idea where I use a pulley system and seeign if there is any way I can improve it to make it more compact and efficient.
  
- I realized that both of the ideas I have for moving the arm vertiaclly are the same. So instead of restarting the whole arm I will be continuing with the bucket idea so that I dont waste time. So to fix the lack of space/ the amount of space the servo takes up, I will be expanding the servo horn adn making it bigger. 
+ I realized that both of the ideas I have for moving the arm vertiaclly are the same. So instead of restarting the whole arm I will be continuing with the bucket idea so that I dont waste time. So to fix the lack of space/ the amount of space the servo takes up, I will be expanding the servo horn and making it bigger. 
 
 ###
 
