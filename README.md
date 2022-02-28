@@ -41,3 +41,158 @@ LINK: https://github.com/OneCHSEngr/CircuitPython/blob/main/lib/lcd7/__init__.py
 
 ###
 
+## Coding
+
+### Code For Both Servos and LCD Screen
+
+
+```python
+import board
+import time
+import pwmio
+from lcd.lcd import LCD
+from lcd.i2c_pcf8574_interface import I2CPCF8574Interface
+from adafruit_motor import servo
+from digitalio import DigitalInOut, Direction, Pull
+
+
+button1 = DigitalInOut(board.D2)
+button1.direction = Direction.INPUT
+button1.pull = Pull.UP
+
+button2 = DigitalInOut(board.D3)
+button2.direction = Direction.INPUT
+button2.pull = Pull.UP
+
+button3 = DigitalInOut(board.D4)
+button3.direction = Direction.INPUT
+button3.pull = Pull.UP
+
+button4 = DigitalInOut(board.D5)
+button4.direction = Direction.INPUT
+button4.pull = Pull.UP
+
+i2c = board.I2C()
+lcd = LCD(I2CPCF8574Interface(i2c, 0x3F), 16, 2, 8)
+
+lcd.print("To Park Your CarHold Button")
+time.sleep(2)
+lcd.clear()
+
+pwm = pwmio.PWMOut(board.A2, duty_cycle=2 ** 15, frequency=50)
+pwm1 = pwmio.PWMOut(board.A3, duty_cycle=2 ** 15, frequency=50)
+my_servo = servo.ContinuousServo(pwm)
+my_servo1 = servo.ContinuousServo(pwm1)
+
+while True:
+    time.sleep(0.1)
+    if button1.value:
+        lcd.print("Parking Car at: 1A")
+        time.sleep(0.5)
+        lcd.clear()
+        time.sleep(0.05)
+    else:
+        lcd.clear()
+
+    if button1.value:
+        print("1 forward")
+        my_servo.throttle = -0.14
+        time.sleep(1.0)
+        print("1 stop")
+        my_servo.throttle = 0.0
+        time.sleep(2.0)
+        print("1 reverse")
+        my_servo.throttle = 0.11
+        time.sleep(1.0)
+        print("1 stop")
+        my_servo.throttle = 0.0
+        time.sleep(2.0)
+
+    if button2.value:
+        lcd.print("Parking Car at: 1B")
+        time.sleep(0.5)
+        lcd.clear()
+        time.sleep(1)
+    else:
+        lcd.clear()
+    if button2.value:
+        print("2 forward")
+        my_servo.throttle = 0.11
+        time.sleep(1.0)
+        print("2 stop")
+        my_servo.throttle = 0.0
+        time.sleep(2.0)
+        print("2 reverse")
+        my_servo.throttle = -0.14
+        time.sleep(1.0)
+        print("2 stop")
+        my_servo.throttle = 0.0
+        time.sleep(2.0)
+
+    if button3.value:
+        lcd.print("Parking Car at: 2A")
+        time.sleep(0.5)
+        lcd.clear()
+        time.sleep(1)
+    else:
+        lcd.clear()
+    if button3.value:
+        print("3 forward")
+        my_servo.throttle = -0.14
+        time.sleep(1.0)
+        print("3 stop")
+        my_servo.throttle = 0.0
+        time.sleep(2.0)
+        print("3 reverse")
+        my_servo.throttle = 0.11
+        time.sleep(1.0)
+        print("3 stop")
+        my_servo.throttle = 0.0
+        time.sleep(2.0)
+        print("2/3 forward")
+        my_servo1.throttle = 1
+        time.sleep(1.0)
+        print("2/3 stop")
+        my_servo1.throttle = 0.0
+        time.sleep(2.0)
+        print("2/3 reverse")
+        my_servo1.throttle = -1
+        time.sleep(1.0)
+        print("2/3 stop")
+        my_servo1.throttle = 0.0
+        time.sleep(2.0)
+
+    if button4.value:
+        lcd.print("Parking Car at: 2B")
+        time.sleep(0.5)
+        lcd.clear()
+        time.sleep(1)
+    else:
+        lcd.clear()
+    if button4.value:
+        print("4 forward")
+        my_servo.throttle = 0.11
+        time.sleep(1.0)
+        print("4 stop")
+        my_servo.throttle = 0.0
+        time.sleep(2.0)
+        print("4 reverse")
+        my_servo.throttle = -0.14
+        time.sleep(1.0)
+        print("4 stop")
+        my_servo.throttle = 0.0
+        time.sleep(2.0)
+        print("2/4 forward")
+        my_servo1.throttle = 1
+        time.sleep(1.0)
+        print("2/4 stop")
+        my_servo1.throttle = 0.0
+        time.sleep(2.0)
+        print("2/4 reverse")
+        my_servo1.throttle = -1
+        time.sleep(1.0)
+        print("2/4 stop")
+        my_servo1.throttle = 0.0
+        time.sleep(2.0)
+
+```
