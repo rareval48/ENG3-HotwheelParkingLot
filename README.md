@@ -6,7 +6,7 @@
 * [Research](#Research)
 * [Design](#Design)
 * [Building](#Building)
-* [Coding](#Coding)
+* [Coding and Wiring](#Coding)
 * [Documenting](#Documenting)
 
 
@@ -41,7 +41,7 @@ LINK: https://github.com/OneCHSEngr/CircuitPython/blob/main/lib/lcd7/__init__.py
 
 ###
 
-## Coding
+## Coding_and_Wiring
 
 ### Code For Both Servos and LCD Screen
 
@@ -196,3 +196,9 @@ while True:
         time.sleep(2.0)
 
 ```
+
+### Problems and Solutions for Coding
+ There have been some problems with code not being able to run and the LCD not being suported by the updated software of my board. I fixed the LCD by using an updated library for the LCD I got from Mr. Dierolf. [LCD Library](https://github.com/OneCHSEngr/CircuitPython/blob/main/lib/lcd7/__init__.py), once I used this and made sure everything else in my library was version 7.0 compatible the LCD started working.
+ 
+ I had some trouble with some buttons that I found so I had to solder and wire new ones that I color coded to make it easier to look and at a moments notice and know where everything belongs. Another problem that I had with wiring was trying to get servos to work as some of them worked with the code and some of them didnt, so sortign through the ones that did and didnt was a pain.
+
