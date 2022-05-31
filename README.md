@@ -41,6 +41,17 @@ LINK: https://github.com/OneCHSEngr/CircuitPython/blob/main/lib/lcd7/__init__.py
 
 ###
 
+## Building
+
+### Building Troubles
+ Designing this project has taken all the time that was needed for building the actual working product. Thre hasnt been any creation or assembly of the servo arm, but there has been some effort towards getting the "controller" ready and working so we can build around that. 
+
+### Evidence Of Finished Design
+ The final product will not be made as the end of the year has arrived and the building and assembly would take to long. So below is the final product ready to help hotwheel cars be parked. 
+ 
+<img src="https://user-images.githubusercontent.com/71342195/171199663-a3977324-3894-4b54-a552-6bb7702ceb47.PNG">
+###
+
 ## Coding_and_Wiring
 
 ### Code For Both Servos and LCD Screen
