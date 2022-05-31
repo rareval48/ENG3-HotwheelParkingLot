@@ -7,7 +7,7 @@
 * [Design](#Design)
 * [Building](#Building)
 * [Coding and Wiring](#Coding)
-* [Documenting](#Documenting)
+* [Problems and Solutions for Coding](#Problems and Solutions for Coding)
 
 
 LINK: https://github.com/OneCHSEngr/CircuitPython/blob/main/lib/lcd7/__init__.py
