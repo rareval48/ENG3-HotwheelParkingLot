@@ -218,7 +218,7 @@ while True:
 
 ```
 
-### Problematic Situations
+### Problematic_Situations
   There have been some problems with code not being able to run and the LCD not being suported by the updated software of my board. I fixed the LCD by using an updated library for the LCD I got from Mr. Dierolf. [LCD Library](https://github.com/OneCHSEngr/CircuitPython/tree/main/lib), once I used this and made sure everything else in my library was version 7.0 compatible the LCD started working.
  
   I had some trouble with some buttons that I found so I had to solder and wire new ones that I color coded to make it easier to look and at a moments notice and know where everything belongs. Another problem that I had with wiring was trying to get servos to work as some of them worked with the code and some of them didnt, so sorting through the ones that did and didnt was a pain.
