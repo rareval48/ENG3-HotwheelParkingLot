@@ -218,13 +218,13 @@ while True:
 ```
 
 ### Problematic_Situations
-  There have been some problems with code not being able to run and the LCD not being suported by the updated software of my board. I fixed the LCD by using an updated library for the LCD I got from Mr. Dierolf. [LCD Library](https://github.com/OneCHSEngr/CircuitPython/tree/main/lib), once I used this and made sure everything else in my library was version 7.0 compatible the LCD started working.
+  There have been some problems with code not being able to run and the LCD not being suported by the updated software of my board. I fixed the LCD by using an updated library for the LCD I got from Mr. Dierolf. [LCD Library](https://github.com/OneCHSEngr/CircuitPython/tree/main/lib/lcd7), once I used this and made sure everything else in my library was version 7.0 compatible the LCD started working.
  
   I had some trouble with some buttons that I found so I had to solder and wire new ones that I color coded to make it easier to look and at a moments notice and know where everything belongs. Another problem that I had with wiring was trying to get servos to work as some of them worked with the code and some of them didnt, so sorting through the ones that did and didnt was a pain.
 
 ###
 
 ### Reflection
-  This project was a fun learning experience, as I learned how to do things faster and more efficient in Onshape, I learned to code and how to conect wiring for a lcd, servo, and battery pack. The most important thing that I learned is to have a teammate that actually knows what they are doing and dont quit immediately if something is to hard for them. 
+  This project was a fun learning experience, as I learned how to do things faster and more efficient in Onshape, I learned to code and how to conect wiring for a lcd, servo, and battery pack. The most important thing that I learned is to have a teammate that actually knows what they are doing and dont quit immediately if something is to hard for them. For future references and help with LCD version 7.0 and 6.0 here [LCD Lib](https://github.com/OneCHSEngr/CircuitPython/tree/main/lib).
  
   If you were to do this project make sure you effectively use your time and make sure you properly plan all of the things you need to make this and when your designing and building dont go for perfection, buiuld it first as you can then improve it and fix it if soemthing can be improved. Spending to much time on designing it will result in not enough time to build it. Especially in an environment like school.
