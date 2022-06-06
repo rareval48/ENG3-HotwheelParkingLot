@@ -52,7 +52,7 @@
 
 Below is the controller to control where the servo moves and  
 
-<img src="https://user-images.githubusercontent.com/71342195/171647219-00f3102b-21af-40ee-ae49-28a3fcd25f73.png" width="250px"><img src="https://user-images.githubusercontent.com/71342195/171647232-92789ad7-673e-4035-b8c1-4fb7594b32b5.png" width="250px"><img src="https://user-images.githubusercontent.com/71342195/171647337-067a931d-db33-46f1-8d52-faa6c9f4024e.png" width="250px">
+<img src="https://user-images.githubusercontent.com/71342195/171647232-92789ad7-673e-4035-b8c1-4fb7594b32b5.png" width="250px"><img src="https://user-images.githubusercontent.com/71342195/171647337-067a931d-db33-46f1-8d52-faa6c9f4024e.png" width="250px">
 
 ###
 
