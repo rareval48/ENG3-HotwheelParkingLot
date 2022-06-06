@@ -1,7 +1,6 @@
 # ENG3-HotwheelParkingLot
  The follwing files are my first foray into using Robotic Arms.
 ## Table of Contents
-* [Table of Contents](#TableOfContents)
 * [Planning](#Planning)
 * [Research](#Research)
 * [Design](#Design)
