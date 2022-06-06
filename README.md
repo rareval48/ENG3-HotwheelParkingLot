@@ -64,7 +64,11 @@ Below is the controller to control where the servo moves and
   That was the only major trouble besides chosing between 180 servo and continous servo as they both have different problems when in this situation. But, wiring was a breeze, organizing differnt wires by color and making sure everythingn was neat and organized really made the project in the long run as it easily showed what everything went to and what everything did.
 
 ### Code For Both Servos and LCD Screen
-
+ <details><summary>Click for Code.</summary>
+ <p>  
+  
+```
+  
 
 ```python
 import board
@@ -214,9 +218,11 @@ while True:
         print("2/4 stop")
         my_servo1.throttle = 0.0
         time.sleep(2.0)
-
-```
-
+  ```
+'''</p>
+</details>
+ 
+  
 ### Problematic_Situations
   There have been some problems with code not being able to run and the LCD not being suported by the updated software of my board. I fixed the LCD by using an updated library for the LCD I got from Mr. Dierolf. [LCD Library](https://github.com/OneCHSEngr/CircuitPython/tree/main/lib/lcd7), once I used this and made sure everything else in my library was version 7.0 compatible the LCD started working.
  
