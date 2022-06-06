@@ -7,7 +7,7 @@
 * [Design](#Design)
 * [Building](#Building)
 * [Coding_and_Wiring](#Coding_and_Wiring)
-* [Problematic Situations](#Problematic_Situatuions)
+* [Problematic_Situations](#Problematic_Situatuions)
 * [Reflection](#Reflection)
 
 
